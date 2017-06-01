@@ -1,0 +1,21 @@
+.boardWrapper {
+  position: relative;
+}
+
+.boardRow {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.gridWrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.boardContent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
